@@ -1,0 +1,31 @@
+<div class="map-content"
+     leaflet
+     [leafletOptions]="options">
+</div>
+
+<div class="card field-card">
+  <div class="card-header">
+    <span>Fields</span>
+    <button class="btn btn-sm btn-success float-right add-location">Add Location</button>
+  </div>
+  <div class="card-body">
+    <div class="col-12 rounded border border-secondary p-3 mt-4 mb-4">
+      <div class="row">
+        <div class="col-sm-12 no-padding">
+          <h3 class="d-inline" >Location name</h3>
+          <span class="badge badge-info float-right mt-2">Events count</span>
+          <h6 class="mt-2"><span class="text-secondary"></span>Address</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8 no-padding">
+          <h6><span class="text-secondary">location.facility_type</span>, <span class="text-secondary">location.field_type</span></h6>
+          <h6 class="mt-2"><span class="text-secondary"></span><a href="location.url" target="_blank">location.name Website</a></h6>
+        </div>
+        <div class="col-sm-4 no-padding">
+          <button class="btn btn-success btn-sm float-right add-event">Add Event</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
